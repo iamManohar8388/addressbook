@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Compile') {
             steps { 
-                cd '/var/lib/jenkins/workspace/pip' 
+                cd '/var/lib/jenkins/workspace/test' 
                 sh 'mvn compile'
             }
         }
